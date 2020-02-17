@@ -1,0 +1,29 @@
+.video-card {
+  transition: all .3s ease-in;
+}
+
+.video-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+}
+
+.video-card .video-preview {
+  transition: all .3s ease-in;
+}
+
+.video-card:hover .video-preview {
+  transform: scale(1.01);
+}
+
+
+
+.my-videos-note {
+    padding: 15px 5px;
+    position: sticky;
+    top: 54px;
+    z-index: 100;
+    background-color: white;
+    text-align: center;
+    color: rgb(153, 84, 187);
+    box-shadow: inset 0 0 10px rgba(153, 84, 187, 0.73), 0 0 5px rgba(0, 0, 0, 0.33);
+    border-radius: 0 0 8px 8px;
+}

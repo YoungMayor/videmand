@@ -1,0 +1,4 @@
+<?php
+/**
+	Removed for distribution 
+*/
